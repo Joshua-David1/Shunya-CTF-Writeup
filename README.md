@@ -1,4 +1,4 @@
-# Shunya-CTF-Writeup
+# Shunya-CTF-Writeup ~ Team Raven
 ## Medium Challenge
 
 ### Echoes of Encryption
