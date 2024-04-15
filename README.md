@@ -98,7 +98,7 @@ for i in range(0,1):
 3) This dumped all the tables contents. The password for the admin user was the flag.
 
 ### Can you break the key
-#### NOTE : :) Since this was a hard challenge, though it would be really difficult to crack, but it turned out to be quite simple. (Cracked it after the competition).
+#### NOTE : :) Since this was a hard challenge, though it would be really difficult to crack and didn't take a look at it during the competition, but it turned out to be quite simple. (Cracked it after the competition).
 
 #### Approach
 1) This was also an AES challenge. The encrypted text along with the encryption function was given. The only thing needed was to write a decryption function and find out the key. <br>
