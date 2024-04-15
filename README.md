@@ -38,7 +38,7 @@ for i in range(1,10000000000):
 ### Rivest Salted Adleman
 #### Approach
 1) This is a classic RSA problem. There'll be p,q and e given. But here, p was given and q was XORed with some value which resulted in salted_q.Generally p*q = n ,but in this case it was p*salted_q which was salted_n and then e value was the standard value (65537). <br>
-2) Now q has to be found. The description hinted that q was XORed with anywhere from 1-9 or it was XORed with 123456789. There tried both the combination and found out the working one. It was 123456789. XORing salted_q with that would give the real q. Now we have all the values required to calculate the n, phi and d. 
+2) Now q has to be found. The description hinted that q was XORed with anywhere from 1-9 or it was XORed with 123456789. Therefore tried both the combination and found out the working one. It was 123456789. XORing salted_q with that would give the real q. Now we have all the values required to calculate the n, phi and d. 
 #### CODE
 ```
 from pwn import *
